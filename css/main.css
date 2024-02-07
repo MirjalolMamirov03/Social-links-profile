@@ -1,1 +1,48 @@
 @import url(./fonts.css);
+
+/* CUSTOM-PROPS */
+
+:root {
+    --Black: #141414;
+    --Dark-Grey: #1F1F1F;
+    --White: #FFF;
+    --Neon-Green: #C4F82A;
+    --Grey: #333;
+    --Inter: "Inter";
+}
+
+/* //CUSTOM-PROPS */
+
+/* GLOBAL-STYLES */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--Black);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* //GLOBAL-STYLES */
+
