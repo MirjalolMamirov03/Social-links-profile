@@ -33,7 +33,10 @@ body {
     background-color: var(--Black);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    /* margin: auto; */
 }
 
 a {
@@ -45,4 +48,6 @@ ul {
 }
 
 /* //GLOBAL-STYLES */
+
+
 
